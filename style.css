@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* Set Image to always be full height*/
+    height: 100%;
+
+    /* Center and Scale the Image*/
+    background: url(images/atlanta.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+
+.hgroup {
+    padding: 5%;
+}
+/* line 12, ../../../components/sass/modules/_intro.scss */
+.fullheight {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: .8em;
+    text-align: center;
+}
+
+.info {
+    padding: 3%;
+}
